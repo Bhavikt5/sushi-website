@@ -43,13 +43,6 @@ img {
 
 /*=============== THEME ===============*/
 
-/*========== Variables Dark theme ==========*/
-
-.darkmode {
-  --first-color: hsl(19, 64%, 54%);
-  --body-color: red;
-}
-
 /*========== 
     Color changes in some parts of 
     the website, in light theme
@@ -300,7 +293,7 @@ nav a.active {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--title-color);
+  background-color: hsl(20, 27%, 11%);
   margin: 0 10%;
   border-radius: 30px;
   width: 100%;
@@ -363,6 +356,7 @@ nav a.active {
 
 .rightNav h4 {
   margin-bottom: 1rem;
+  color: var(--title-color);
 }
 
 .social i {
