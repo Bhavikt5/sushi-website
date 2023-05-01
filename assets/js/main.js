@@ -23,3 +23,13 @@ darkmode.addEventListener("click", () => {
 /*=============== DARK LIGHT THEME ===============*/
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 1500,
+  delay: 300,
+  reset: true,
+});
+
+sr.reveal("#home, .popularTitle, #recently, .newsletter");
+sr.reveal("#about, .deck", { delay: 500 });
